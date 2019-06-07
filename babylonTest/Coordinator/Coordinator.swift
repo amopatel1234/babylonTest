@@ -18,13 +18,12 @@ protocol Coordinator: class {
 extension Coordinator {
     
     func addChildCoordinator(coordinator: Coordinator) {
-        childCoordinators.forEach { (element) in
-            if element === coordinator {
-                return
-            }
-        }
         
-        childCoordinators.append(coordinator)
+        if childCoordinators.filter({ (childCoordinator) -> Bool in
+            return childCoordinator === coordinator
+        }).isEmpty {
+            childCoordinators.append(coordinator)
+        }
     }
     
     func removeChildCoordinator(coordinator: Coordinator) {
