@@ -18,6 +18,8 @@
 		3B5712E622AAACC9009E3739 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712E422AAACC9009E3739 /* PostsViewController.swift */; };
 		3B5712E722AAACC9009E3739 /* PostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5712E522AAACC9009E3739 /* PostsViewController.xib */; };
 		3B5712E922AACBEA009E3739 /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712E822AACBEA009E3739 /* CoordinatorTests.swift */; };
+		3B5712EB22AB0813009E3739 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712EA22AB0813009E3739 /* HTTPClient.swift */; };
+		3B5712ED22AB0877009E3739 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712EC22AB0877009E3739 /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		3B5712E422AAACC9009E3739 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		3B5712E522AAACC9009E3739 /* PostsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsViewController.xib; sourceTree = "<group>"; };
 		3B5712E822AACBEA009E3739 /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
+		3B5712EA22AB0813009E3739 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		3B5712EC22AB0877009E3739 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 		3B5712D422AAA8FF009E3739 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				3B5712EA22AB0813009E3739 /* HTTPClient.swift */,
+				3B5712EC22AB0877009E3739 /* URLSessionHTTPClient.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				3B5712DD22AAABF9009E3739 /* Router.swift in Sources */,
 				3B5712E122AAAC1F009E3739 /* Coordinator.swift in Sources */,
 				3B5712E322AAACB8009E3739 /* PostCoordinator.swift in Sources */,
+				3B5712ED22AB0877009E3739 /* URLSessionHTTPClient.swift in Sources */,
+				3B5712EB22AB0813009E3739 /* HTTPClient.swift in Sources */,
 				3B5712E622AAACC9009E3739 /* PostsViewController.swift in Sources */,
 				3B5712D922AAABDE009E3739 /* AppCoordinator.swift in Sources */,
 				3B5712B322AAA2B8009E3739 /* AppDelegate.swift in Sources */,
