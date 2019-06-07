@@ -51,6 +51,35 @@ class CoordinatorTests: XCTestCase {
         XCTAssertEqual(1, mainCoordinator?.childCoordinators.count)
     }
     
+    func test_removeChildCoordinator_fromMiddle() {
+        let coordinatorA = makeSUT()
+        let coordinatorB = makeSUT()
+        let coordinatorC = makeSUT()
+        let coordinatorD = makeSUT()
+        
+        mainCoordinator?.addChildCoordinator(coordinator: coordinatorA)
+        mainCoordinator?.addChildCoordinator(coordinator: coordinatorB)
+        mainCoordinator?.addChildCoordinator(coordinator: coordinatorC)
+        mainCoordinator?.addChildCoordinator(coordinator: coordinatorD)
+        mainCoordinator?.removeChildCoordinator(coordinator: coordinatorC)
+        
+        XCTAssertEqual(3, mainCoordinator?.childCoordinators.count)
+    }
+    
+    func test_removeChildCoordinator_removeSameChildTwice() {
+        let coordinatorA = makeSUT()
+        let coordinatorB = makeSUT()
+        let coordinatorC = makeSUT()
+        
+        mainCoordinator?.addChildCoordinator(coordinator: coordinatorA)
+        mainCoordinator?.addChildCoordinator(coordinator: coordinatorB)
+        mainCoordinator?.addChildCoordinator(coordinator: coordinatorC)
+        mainCoordinator?.removeChildCoordinator(coordinator: coordinatorC)
+        mainCoordinator?.removeChildCoordinator(coordinator: coordinatorC)
+        
+        XCTAssertEqual(2, mainCoordinator?.childCoordinators.count)
+    }
+    
     private func makeSUT() -> CoordinatorStub {
         return CoordinatorStub()
     }
