@@ -11,7 +11,6 @@
 		3B5712B822AAA2B8009E3739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5712B622AAA2B8009E3739 /* Main.storyboard */; };
 		3B5712BA22AAA2BB009E3739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5712B922AAA2BB009E3739 /* Assets.xcassets */; };
 		3B5712BD22AAA2BB009E3739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5712BB22AAA2BB009E3739 /* LaunchScreen.storyboard */; };
-		3B5712C822AAA2BB009E3739 /* babylonTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712C722AAA2BB009E3739 /* babylonTestTests.swift */; };
 		3B5712D922AAABDE009E3739 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712D822AAABDE009E3739 /* AppCoordinator.swift */; };
 		3B5712DD22AAABF9009E3739 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712DC22AAABF9009E3739 /* Router.swift */; };
 		3B5712E122AAAC1F009E3739 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712E022AAAC1F009E3739 /* Coordinator.swift */; };
@@ -38,7 +37,6 @@
 		3B5712BC22AAA2BB009E3739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B5712BE22AAA2BB009E3739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5712C322AAA2BB009E3739 /* babylonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = babylonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B5712C722AAA2BB009E3739 /* babylonTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = babylonTestTests.swift; sourceTree = "<group>"; };
 		3B5712C922AAA2BB009E3739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5712D822AAABDE009E3739 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		3B5712DC22AAABF9009E3739 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 		3B5712C622AAA2BB009E3739 /* babylonTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				3B5712C722AAA2BB009E3739 /* babylonTestTests.swift */,
 				3B5712C922AAA2BB009E3739 /* Info.plist */,
 			);
 			path = babylonTestTests;
@@ -274,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B5712C822AAA2BB009E3739 /* babylonTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
