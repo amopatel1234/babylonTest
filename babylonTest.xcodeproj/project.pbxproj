@@ -20,6 +20,7 @@
 		3B5712E922AACBEA009E3739 /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712E822AACBEA009E3739 /* CoordinatorTests.swift */; };
 		3B5712EB22AB0813009E3739 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712EA22AB0813009E3739 /* HTTPClient.swift */; };
 		3B5712ED22AB0877009E3739 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712EC22AB0877009E3739 /* URLSessionHTTPClient.swift */; };
+		3B5712F122AB0A41009E3739 /* ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712F022AB0A41009E3739 /* ObjectMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		3B5712E822AACBEA009E3739 /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
 		3B5712EA22AB0813009E3739 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		3B5712EC22AB0877009E3739 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
+		3B5712F022AB0A41009E3739 /* ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				3B5712EA22AB0813009E3739 /* HTTPClient.swift */,
 				3B5712EC22AB0877009E3739 /* URLSessionHTTPClient.swift */,
+				3B5712F022AB0A41009E3739 /* ObjectMapper.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B5712DD22AAABF9009E3739 /* Router.swift in Sources */,
+				3B5712F122AB0A41009E3739 /* ObjectMapper.swift in Sources */,
 				3B5712E122AAAC1F009E3739 /* Coordinator.swift in Sources */,
 				3B5712E322AAACB8009E3739 /* PostCoordinator.swift in Sources */,
 				3B5712ED22AB0877009E3739 /* URLSessionHTTPClient.swift in Sources */,
