@@ -22,6 +22,6 @@ final class URLSessionHTTPClient: HTTPClient {
             } else if let data = data {
                 completion(.success(data))
             }
-        }
+        }.resume()
     }
 }
