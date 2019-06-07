@@ -18,10 +18,7 @@ protocol Coordinator: class {
 extension Coordinator {
     
     func addChildCoordinator(coordinator: Coordinator) {
-        
-        if childCoordinators.filter({ (childCoordinator) -> Bool in
-            return childCoordinator === coordinator
-        }).isEmpty {
+        if (childCoordinators.filter{$0 === coordinator}).isEmpty {
             childCoordinators.append(coordinator)
         }
     }
