@@ -21,6 +21,10 @@
 		3B5712EB22AB0813009E3739 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712EA22AB0813009E3739 /* HTTPClient.swift */; };
 		3B5712ED22AB0877009E3739 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712EC22AB0877009E3739 /* URLSessionHTTPClient.swift */; };
 		3B5712F122AB0A41009E3739 /* ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712F022AB0A41009E3739 /* ObjectMapper.swift */; };
+		3B5712F422AB109A009E3739 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712F322AB109A009E3739 /* DataLoader.swift */; };
+		3B5712F722AB11A3009E3739 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712F622AB11A3009E3739 /* Post.swift */; };
+		3B5712F922AB11B4009E3739 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712F822AB11B4009E3739 /* User.swift */; };
+		3B5712FB22AB11BD009E3739 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712FA22AB11BD009E3739 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		3B5712EA22AB0813009E3739 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		3B5712EC22AB0877009E3739 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 		3B5712F022AB0A41009E3739 /* ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper.swift; sourceTree = "<group>"; };
+		3B5712F322AB109A009E3739 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		3B5712F622AB11A3009E3739 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3B5712F822AB11B4009E3739 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3B5712FA22AB11BD009E3739 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 				3B5712D322AAA8E7009E3739 /* Coordinator */,
 				3B5712D522AAA905009E3739 /* Scenes */,
 				3B5712D422AAA8FF009E3739 /* API */,
+				3B5712F222AB1080009E3739 /* DataLoader */,
+				3B5712F522AB118E009E3739 /* Models */,
 			);
 			path = babylonTest;
 			sourceTree = "<group>";
@@ -166,6 +176,24 @@
 			children = (
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		3B5712F222AB1080009E3739 /* DataLoader */ = {
+			isa = PBXGroup;
+			children = (
+				3B5712F322AB109A009E3739 /* DataLoader.swift */,
+			);
+			path = DataLoader;
+			sourceTree = "<group>";
+		};
+		3B5712F522AB118E009E3739 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B5712F622AB11A3009E3739 /* Post.swift */,
+				3B5712F822AB11B4009E3739 /* User.swift */,
+				3B5712FA22AB11BD009E3739 /* Comment.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,12 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5712F422AB109A009E3739 /* DataLoader.swift in Sources */,
+				3B5712F722AB11A3009E3739 /* Post.swift in Sources */,
 				3B5712DD22AAABF9009E3739 /* Router.swift in Sources */,
 				3B5712F122AB0A41009E3739 /* ObjectMapper.swift in Sources */,
 				3B5712E122AAAC1F009E3739 /* Coordinator.swift in Sources */,
 				3B5712E322AAACB8009E3739 /* PostCoordinator.swift in Sources */,
 				3B5712ED22AB0877009E3739 /* URLSessionHTTPClient.swift in Sources */,
 				3B5712EB22AB0813009E3739 /* HTTPClient.swift in Sources */,
+				3B5712FB22AB11BD009E3739 /* Comment.swift in Sources */,
+				3B5712F922AB11B4009E3739 /* User.swift in Sources */,
 				3B5712E622AAACC9009E3739 /* PostsViewController.swift in Sources */,
 				3B5712D922AAABDE009E3739 /* AppCoordinator.swift in Sources */,
 				3B5712B322AAA2B8009E3739 /* AppDelegate.swift in Sources */,
