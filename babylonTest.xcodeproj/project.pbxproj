@@ -17,6 +17,7 @@
 		3B5712E322AAACB8009E3739 /* PostCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712E222AAACB8009E3739 /* PostCoordinator.swift */; };
 		3B5712E622AAACC9009E3739 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712E422AAACC9009E3739 /* PostsViewController.swift */; };
 		3B5712E722AAACC9009E3739 /* PostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5712E522AAACC9009E3739 /* PostsViewController.xib */; };
+		3B5712E922AACBEA009E3739 /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712E822AACBEA009E3739 /* CoordinatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3B5712E222AAACB8009E3739 /* PostCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCoordinator.swift; sourceTree = "<group>"; };
 		3B5712E422AAACC9009E3739 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		3B5712E522AAACC9009E3739 /* PostsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsViewController.xib; sourceTree = "<group>"; };
+		3B5712E822AACBEA009E3739 /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				3B5712C922AAA2BB009E3739 /* Info.plist */,
+				3B5712E822AACBEA009E3739 /* CoordinatorTests.swift */,
 			);
 			path = babylonTestTests;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 					};
 					3B5712C222AAA2BB009E3739 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 3B5712AE22AAA2B8009E3739;
 					};
 				};
@@ -271,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5712E922AACBEA009E3739 /* CoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +466,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV5H9HP6KR;
 				INFOPLIST_FILE = babylonTestTests/Info.plist;
@@ -471,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.amishpatel.babylonTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/babylonTest.app/babylonTest";
@@ -482,6 +489,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WV5H9HP6KR;
 				INFOPLIST_FILE = babylonTestTests/Info.plist;
