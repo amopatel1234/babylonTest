@@ -26,6 +26,7 @@
 		3B5712F922AB11B4009E3739 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712F822AB11B4009E3739 /* User.swift */; };
 		3B5712FB22AB11BD009E3739 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712FA22AB11BD009E3739 /* Comment.swift */; };
 		3B5712FD22AD358D009E3739 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712FC22AD358D009E3739 /* URLSessionHTTPClientTests.swift */; };
+		3B5712FF22AD3FE7009E3739 /* DataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5712FE22AD3FE7009E3739 /* DataLoaderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		3B5712F822AB11B4009E3739 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3B5712FA22AB11BD009E3739 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		3B5712FC22AD358D009E3739 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
+		3B5712FE22AD3FE7009E3739 /* DataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				3B5712C922AAA2BB009E3739 /* Info.plist */,
 				3B5712E822AACBEA009E3739 /* CoordinatorTests.swift */,
 				3B5712FC22AD358D009E3739 /* URLSessionHTTPClientTests.swift */,
+				3B5712FE22AD3FE7009E3739 /* DataLoaderTests.swift */,
 			);
 			path = babylonTestTests;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5712FF22AD3FE7009E3739 /* DataLoaderTests.swift in Sources */,
 				3B5712E922AACBEA009E3739 /* CoordinatorTests.swift in Sources */,
 				3B5712FD22AD358D009E3739 /* URLSessionHTTPClientTests.swift in Sources */,
 			);
