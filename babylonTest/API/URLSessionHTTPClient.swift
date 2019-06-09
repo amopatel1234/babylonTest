@@ -16,10 +16,10 @@ final class URLSessionHTTPClient: HTTPClient {
     }
     
     func get(url: URL, completion: @escaping (Result<Data, Error>) -> Void) {
-        session.dataTask(with: url) { (data, _, error) in
+        session.dataTask(with: url) { (data, response, error) in
             if let error = error {
                 completion(.failure(error))
-            } else if let data = data {
+            } else if let data = data, let _ = response {
                 completion(.success(data))
             }
         }.resume()
