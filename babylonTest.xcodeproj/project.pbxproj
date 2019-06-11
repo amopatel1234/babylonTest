@@ -30,6 +30,8 @@
 		3B57130322AD5FD6009E3739 /* LocalLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57130222AD5FD6009E3739 /* LocalLoaderTests.swift */; };
 		3B57130922B00C5B009E3739 /* LocalLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57130822B00C5B009E3739 /* LocalLoader.swift */; };
 		3B57130B22B00C74009E3739 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57130A22B00C74009E3739 /* DataStore.swift */; };
+		3B57130D22B02DD9009E3739 /* DataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57130C22B02DD9009E3739 /* DataLoaderTests.swift */; };
+		3B57130F22B04AC0009E3739 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57130E22B04AC0009E3739 /* DataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		3B57130222AD5FD6009E3739 /* LocalLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLoaderTests.swift; sourceTree = "<group>"; };
 		3B57130822B00C5B009E3739 /* LocalLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLoader.swift; sourceTree = "<group>"; };
 		3B57130A22B00C74009E3739 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		3B57130C22B02DD9009E3739 /* DataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoaderTests.swift; sourceTree = "<group>"; };
+		3B57130E22B04AC0009E3739 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 				3B5712FC22AD358D009E3739 /* URLSessionHTTPClientTests.swift */,
 				3B5712FE22AD3FE7009E3739 /* RemoteLoaderTests.swift */,
 				3B57130222AD5FD6009E3739 /* LocalLoaderTests.swift */,
+				3B57130C22B02DD9009E3739 /* DataLoaderTests.swift */,
 			);
 			path = babylonTestTests;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 				3B5712F322AB109A009E3739 /* RemoteLoader.swift */,
 				3B57130822B00C5B009E3739 /* LocalLoader.swift */,
 				3B57130A22B00C74009E3739 /* DataStore.swift */,
+				3B57130E22B04AC0009E3739 /* DataLoader.swift */,
 			);
 			path = DataLoader;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 				3B5712FB22AB11BD009E3739 /* Comment.swift in Sources */,
 				3B5712F922AB11B4009E3739 /* User.swift in Sources */,
 				3B5712E622AAACC9009E3739 /* PostsViewController.swift in Sources */,
+				3B57130F22B04AC0009E3739 /* DataLoader.swift in Sources */,
 				3B5712D922AAABDE009E3739 /* AppCoordinator.swift in Sources */,
 				3B57130B22B00C74009E3739 /* DataStore.swift in Sources */,
 				3B5712B322AAA2B8009E3739 /* AppDelegate.swift in Sources */,
@@ -340,6 +347,7 @@
 				3B5712E922AACBEA009E3739 /* CoordinatorTests.swift in Sources */,
 				3B5712FD22AD358D009E3739 /* URLSessionHTTPClientTests.swift in Sources */,
 				3B57130322AD5FD6009E3739 /* LocalLoaderTests.swift in Sources */,
+				3B57130D22B02DD9009E3739 /* DataLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
