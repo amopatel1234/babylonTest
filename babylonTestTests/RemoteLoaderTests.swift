@@ -1,5 +1,5 @@
 //
-//  DataLoaderTests.swift
+//  RemoteLoaderTests.swift
 //  babylonTestTests
 //
 //  Created by Amish Patel on 09/06/2019.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import babylonTest
 
-class DataLoaderTests: XCTestCase {
+class RemoteLoaderTests: XCTestCase {
     
     func test_loadPost() {
         let sut = makeSUT(withData: makePostJSONData())
@@ -77,10 +77,10 @@ class DataLoaderTests: XCTestCase {
         wait(for: [exp], timeout: 2.0)
     }
     
-    private func makeSUT(withData data: Data, error: Error? = nil) -> DataLoader {
+    private func makeSUT(withData data: Data, error: Error? = nil) -> RemoteLoader {
         let client = HTTPClientStub(data: data, error: error)
         let mapper = ObjectMapper()
-        return DataLoader(httpClient: client, objectMapper: mapper)
+        return RemoteLoader(httpClient: client, objectMapper: mapper)
     }
     
     private func makePostJSONData() -> Data {

@@ -1,5 +1,5 @@
 //
-//  DataLoader.swift
+//  RemoteLoader.swift
 //  babylonTest
 //
 //  Created by Amish Patel on 07/06/2019.
@@ -8,13 +8,13 @@
 
 import Foundation
 
-protocol DataLoadable {
+protocol RemoteLoadable {
     func loadPosts(fromURL url: URL, completion: @escaping (Result<[Post], Error>) -> Void)
     func loadUsers(fromURL url: URL, completion: @escaping (Result<[User], Error>) -> Void)
     func loadComments(fromURL url: URL, completion: @escaping (Result<[Comment], Error>) -> Void)
 }
 
-final class DataLoader: DataLoadable {
+final class RemoteLoader: RemoteLoadable {
     
     let httpClient: HTTPClient
     let objectMapper: ObjectMapable
