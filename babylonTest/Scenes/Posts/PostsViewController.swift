@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PostsViewController: UIViewController {
+final class PostsViewController: UIViewController {
 
     private let viewModel: PostsViewModel
     

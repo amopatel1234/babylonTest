@@ -39,7 +39,6 @@ final class PostsViewModel {
                     self.responseToCallback()
                 }
             case let .failure(error):
-//                print(error)
                 self.showError(error: error)
             }
         }
@@ -53,7 +52,6 @@ final class PostsViewModel {
                     self.responseToCallback()
                 }
             case let .failure(error):
-//                print(error)
                 self.showError(error: error)
             }
         }
@@ -67,7 +65,6 @@ final class PostsViewModel {
                     self.responseToCallback()
                 }
             case let .failure(error):
-//                print(error)
                 self.showError(error: error)
             }
         }

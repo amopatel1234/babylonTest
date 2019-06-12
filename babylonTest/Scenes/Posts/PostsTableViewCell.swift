@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PostsTableViewCell: UITableViewCell {
+final class PostsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var titleLabel: UILabel!
     

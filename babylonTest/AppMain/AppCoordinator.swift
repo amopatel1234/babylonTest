@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AppCoordinator: Coordinator {
+final class AppCoordinator: Coordinator {
     
     var childCoordinators: [Coordinator] = [Coordinator]()
     
