@@ -39,7 +39,8 @@ final class PostsViewModel {
                     self.responseToCallback()
                 }
             case let .failure(error):
-                print(error)
+//                print(error)
+                self.showError(error: error)
             }
         }
         
@@ -52,7 +53,8 @@ final class PostsViewModel {
                     self.responseToCallback()
                 }
             case let .failure(error):
-                print(error)
+//                print(error)
+                self.showError(error: error)
             }
         }
         
@@ -65,7 +67,8 @@ final class PostsViewModel {
                     self.responseToCallback()
                 }
             case let .failure(error):
-                print(error)
+//                print(error)
+                self.showError(error: error)
             }
         }
     }
@@ -88,6 +91,10 @@ final class PostsViewModel {
         
         let postData = self.posts[indexRow]
         
-        coordinatorAction.tappedOnCell(postData: postData)
+        coordinatorAction.tappedOnCell(postData: postData, users: users, comments: comments)
+    }
+    
+    func showError(error: Error) {
+        coordinatorAction.showErrorAlert(error: error)
     }
 }

@@ -36,6 +36,9 @@
 		3B57131C22B15471009E3739 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57131A22B15471009E3739 /* PostsTableViewCell.swift */; };
 		3B57131D22B15471009E3739 /* PostsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B57131B22B15471009E3739 /* PostsTableViewCell.xib */; };
 		3B57131F22B1547D009E3739 /* PostsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57131E22B1547D009E3739 /* PostsCellViewModel.swift */; };
+		3B57132422B16290009E3739 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57132222B16290009E3739 /* DetailsViewController.swift */; };
+		3B57132522B16290009E3739 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B57132322B16290009E3739 /* DetailsViewController.xib */; };
+		3B57132722B162A8009E3739 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57132622B162A8009E3739 /* DetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,9 @@
 		3B57131A22B15471009E3739 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 		3B57131B22B15471009E3739 /* PostsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsTableViewCell.xib; sourceTree = "<group>"; };
 		3B57131E22B1547D009E3739 /* PostsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsCellViewModel.swift; sourceTree = "<group>"; };
+		3B57132222B16290009E3739 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3B57132322B16290009E3739 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		3B57132622B162A8009E3739 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +210,9 @@
 		3B5712D722AAA95E009E3739 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				3B57132222B16290009E3739 /* DetailsViewController.swift */,
+				3B57132322B16290009E3739 /* DetailsViewController.xib */,
+				3B57132622B162A8009E3739 /* DetailsViewModel.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -316,6 +325,7 @@
 				3B5712BD22AAA2BB009E3739 /* LaunchScreen.storyboard in Resources */,
 				3B5712BA22AAA2BB009E3739 /* Assets.xcassets in Resources */,
 				3B5712B822AAA2B8009E3739 /* Main.storyboard in Resources */,
+				3B57132522B16290009E3739 /* DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +354,7 @@
 				3B5712EB22AB0813009E3739 /* HTTPClient.swift in Sources */,
 				3B5712FB22AB11BD009E3739 /* Comment.swift in Sources */,
 				3B5712F922AB11B4009E3739 /* User.swift in Sources */,
+				3B57132722B162A8009E3739 /* DetailsViewModel.swift in Sources */,
 				3B57131F22B1547D009E3739 /* PostsCellViewModel.swift in Sources */,
 				3B5712E622AAACC9009E3739 /* PostsViewController.swift in Sources */,
 				3B57130F22B04AC0009E3739 /* DataLoader.swift in Sources */,
@@ -352,6 +363,7 @@
 				3B57131C22B15471009E3739 /* PostsTableViewCell.swift in Sources */,
 				3B57130B22B00C74009E3739 /* DataStore.swift in Sources */,
 				3B5712B322AAA2B8009E3739 /* AppDelegate.swift in Sources */,
+				3B57132422B16290009E3739 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

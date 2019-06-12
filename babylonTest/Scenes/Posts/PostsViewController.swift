@@ -74,5 +74,7 @@ extension PostsViewController: UITableViewDataSource {
 }
 
 extension PostsViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewModel.userTappedOnCell(indexRow: indexPath.row)
+    }
 }

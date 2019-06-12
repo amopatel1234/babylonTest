@@ -9,7 +9,8 @@
 import UIKit
 
 protocol PostCoordinatorActions {
-    func tappedOnCell(postData: Post)
+    func tappedOnCell(postData: Post, users:[User], comments:[Comment])
+    func showErrorAlert(error: Error)
 }
 
 final class PostCoordinator: Coordinator, PostCoordinatorActions {
@@ -37,11 +38,19 @@ final class PostCoordinator: Coordinator, PostCoordinatorActions {
         router.setRootViewController(viewController: vc, hideBar: false)
     }
     
-    func tappedOnCell(postData: Post) {
-        showDetailsViewController(postData: postData)
+    func tappedOnCell(postData: Post, users: [User], comments: [Comment]) {
+        showDetailsViewController(postData: postData, users: users, comments: comments)
     }
     
-    private func showDetailsViewController(postData: Post) {
+    private func showDetailsViewController(postData: Post,users: [User], comments: [Comment]) {
         
+        let viewModel = DetailViewModel(postData: postData, users: users, comments: comments)
+        let vc = DetailsViewController(viewModel: viewModel)
+        vc.title = "Details"
+        router.pushViewController(viewController: vc)
+    }
+    
+    func showErrorAlert(error: Error) {
+        self.router.showErrorAlert(error: error)
     }
 }
