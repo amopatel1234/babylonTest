@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PostsViewController" customModule="babylonTest" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="Vp6-Ul-i8q" id="CBn-kt-wyU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,7 +20,18 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.5568627451" green="0.23529411759999999" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vp6-Ul-i8q">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Vp6-Ul-i8q" secondAttribute="trailing" id="8LP-gn-jM2"/>
+                <constraint firstItem="Vp6-Ul-i8q" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Nf5-kp-rfU"/>
+                <constraint firstItem="Vp6-Ul-i8q" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Opy-pY-6OS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Vp6-Ul-i8q" secondAttribute="bottom" id="pWK-zC-ed2"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
