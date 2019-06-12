@@ -39,6 +39,8 @@
 		3B57132422B16290009E3739 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57132222B16290009E3739 /* DetailsViewController.swift */; };
 		3B57132522B16290009E3739 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B57132322B16290009E3739 /* DetailsViewController.xib */; };
 		3B57132722B162A8009E3739 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57132622B162A8009E3739 /* DetailsViewModel.swift */; };
+		3B57132922B1B933009E3739 /* PostsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57132822B1B933009E3739 /* PostsViewModelTests.swift */; };
+		3B57132B22B1BE6B009E3739 /* PostCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57132A22B1BE6B009E3739 /* PostCellViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		3B57132222B16290009E3739 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3B57132322B16290009E3739 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 		3B57132622B162A8009E3739 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		3B57132822B1B933009E3739 /* PostsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModelTests.swift; sourceTree = "<group>"; };
+		3B57132A22B1BE6B009E3739 /* PostCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,8 @@
 				3B5712FE22AD3FE7009E3739 /* RemoteLoaderTests.swift */,
 				3B57130222AD5FD6009E3739 /* LocalLoaderTests.swift */,
 				3B57130C22B02DD9009E3739 /* DataLoaderTests.swift */,
+				3B57132822B1B933009E3739 /* PostsViewModelTests.swift */,
+				3B57132A22B1BE6B009E3739 /* PostCellViewModelTests.swift */,
 			);
 			path = babylonTestTests;
 			sourceTree = "<group>";
@@ -371,9 +377,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B57132922B1B933009E3739 /* PostsViewModelTests.swift in Sources */,
 				3B5712FF22AD3FE7009E3739 /* RemoteLoaderTests.swift in Sources */,
 				3B5712E922AACBEA009E3739 /* CoordinatorTests.swift in Sources */,
 				3B5712FD22AD358D009E3739 /* URLSessionHTTPClientTests.swift in Sources */,
+				3B57132B22B1BE6B009E3739 /* PostCellViewModelTests.swift in Sources */,
 				3B57130322AD5FD6009E3739 /* LocalLoaderTests.swift in Sources */,
 				3B57130D22B02DD9009E3739 /* DataLoaderTests.swift in Sources */,
 			);
